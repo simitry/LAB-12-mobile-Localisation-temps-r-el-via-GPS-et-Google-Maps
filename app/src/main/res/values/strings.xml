@@ -1,0 +1,14 @@
+<resources>
+    <!-- Application name shown on the device. -->
+    <string name="app_name">LocalisationLab</string>
+    <!-- Title shown for the map activity. -->
+    <string name="title_activity_maps">Carte des positions</string>
+    <!-- Message shown when the GPS provider is enabled. -->
+    <string name="provider_enabled">GPS active</string>
+    <!-- Message shown when the GPS provider is disabled. -->
+    <string name="provider_disabled">GPS desactive</string>
+    <!-- Message shown when the GPS provider status changes. -->
+    <string name="provider_new_status">Nouveau statut du fournisseur GPS</string>
+    <!-- Message shown when a new location is received. -->
+    <string name="new_location">Nouvelle position recue</string>
+</resources>

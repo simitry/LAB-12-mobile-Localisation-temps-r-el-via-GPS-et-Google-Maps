@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root vertical layout for the GPS collection screen. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Displays the latest latitude received from GPS_PROVIDER. -->
+    <TextView
+        android:id="@+id/text_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Latitude : --"
+        android:textSize="20sp" />
+
+    <!-- Displays the latest longitude received from GPS_PROVIDER. -->
+    <TextView
+        android:id="@+id/text_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Longitude : --"
+        android:textSize="20sp" />
+
+    <!-- Opens MapsActivity to show all saved backend positions as markers. -->
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Afficher Map" />
+
+</LinearLayout>
